@@ -1,0 +1,136 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+h1 {
+    color: #333;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.matrixInputs {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+label {
+    margin-right: 10px;
+    color: #555;
+    font-weight: bold;
+}
+
+input[type="text"] {
+    width: 50px;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+#calcButton {
+    visibility: hidden;
+    padding: 12px 24px;
+    margin-top: 20px;
+    background-color: #2ecc71;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+#calcButton:hover {
+    background-color: #27ae60;
+}
+
+#calcButton:active {
+    background-color: #218c58;
+    animation: scaleDown 0.2s ease-in-out;
+}
+
+@keyframes scaleDown {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(0.95);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+#results {
+    margin-top: 20px;
+    text-align: center;
+    color: #333;
+}
+
+.matrixContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.matrixContainer h3 {
+    color: #555;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.matrixContainer input[type="text"] {
+    width: 50px;
+    padding: 8px;
+    margin: 2px;
+    box-sizing: border-box;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    background-color: #fff;
+    color: #333;
+    font-size: 14px;
+}
+
+.matrixContainer input[type="text"]:disabled {
+    background-color: #ddd;
+    color: #555;
+}
+
+.buttonContainer {
+    display: flex;
+    margin-top: 20px;
+}
+
+#resetButton {
+    visibility: hidden;
+    padding: 12px 24px;
+    background-color: #e74c3c;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+#resetButton:hover {
+    background-color: #c0392b;
+}
+
+#resetButton:active {
+    background-color: #922b21;
+    animation: scaleDown 0.2s ease-in-out;
+}
