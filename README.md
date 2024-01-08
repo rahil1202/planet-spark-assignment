@@ -19,10 +19,8 @@ This project provides a straightforward interface to perform matrix multiplicati
 
 ## Screenshots
 
-![Screenshot 1](![image](https://github.com/rahil1202/planet-spark-assignment/assets/104057403/7b2d1080-f1c5-465a-b0d0-d67da00c0753)
-)
-![Screenshot 2](![image](https://github.com/rahil1202/planet-spark-assignment/assets/104057403/e3ab51a7-d1e1-4c8b-8946-5d95138b02eb)
-)
+![Screenshot 1](![image](https://github.com/rahil1202/planet-spark-assignment/assets/104057403/7b2d1080-f1c5-465a-b0d0-d67da00c0753))
+![Screenshot 2](![image](https://github.com/rahil1202/planet-spark-assignment/assets/104057403/e3ab51a7-d1e1-4c8b-8946-5d95138b02eb))
 
 ## Technologies Used
 
